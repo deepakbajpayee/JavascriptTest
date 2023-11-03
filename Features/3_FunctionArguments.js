@@ -7,7 +7,7 @@
 const max = function() {
 
     console.log(arguments instanceof Array);
-    console.log(typeof(arguments));
+    console.log(typeof(arguments)); // object
 
     let large = arguments[0];
     for(let i = 0; i < arguments.length; i++) {
@@ -27,7 +27,7 @@ const max = function() {
  */
 
 const maxRest = function(...values) {
-    console.log(values instanceof Array);
+    console.log(values instanceof Array); // true
     let large = values[0];
     for(let i = 0; i < values.length; i++) {
         if(values[i] > large) {

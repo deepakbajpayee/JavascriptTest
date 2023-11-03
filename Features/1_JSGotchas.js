@@ -16,7 +16,7 @@ Benefits of "use strict".
 Install and Set EsLint to better watch out for issues.
     1. npm install -g eslint
     2. eslint --init
-    3. Run eslint Gotcha.js
+    3. eslint Gotcha.js
  */
 
 const Gotchas1 = function (){

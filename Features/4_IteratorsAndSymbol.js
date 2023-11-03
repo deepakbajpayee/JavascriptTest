@@ -35,7 +35,7 @@ for(const property in sam) {
     console.log(property + ' : ' + sam[property]);
 }
 //console.log('list of property names:');
-//console.log(Object.getOwnPropertyNames(sam));
+//  console.log(Object.getOwnPropertyNames(sam));
 
 
 //console.log('list of symbol properties');
