@@ -152,7 +152,3 @@ const pickNamesInUpperCaseOfLength = function(names, length) {
         .map((name) => name.toUpperCase())
         .join(', ');
 };
-
-
-
-
